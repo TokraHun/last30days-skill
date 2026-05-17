@@ -16,9 +16,9 @@ Agent Skills package for researching any topic across Reddit, X, YouTube, and we
 
 ## Commands
 ```bash
+# Dev/fallback: direct engine invocation (scripting, cron, or engine testing only)
 python3 skills/last30days/scripts/last30days.py "test query" --emit=compact
 npx skills add . -g -y   # one-time: symlink this repo into every detected harness's skill dir
-```
 
 ## Rules
 - `lib/__init__.py` must be bare package marker (comment only, NO eager imports)
